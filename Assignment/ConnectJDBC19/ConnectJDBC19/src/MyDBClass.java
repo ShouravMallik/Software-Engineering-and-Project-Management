@@ -25,7 +25,7 @@ public class MyDBClass {
 		String url="jdbc:mysql://localhost:3306/test";
 		try {
 			
-			connection = DriverManager.getConnection(url,"Mugdha67","1610978486");
+			connection = DriverManager.getConnection(url,"root","shourav");
 			//connection = DriverManager.getConnection(url,"scott","tiger");
 			//System.out.println(connection);
 		} catch (SQLException e) {
